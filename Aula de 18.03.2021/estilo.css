@@ -1,0 +1,36 @@
+* {
+    background-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.informações {
+
+    margin: 30px 20px;
+    padding: 15px;
+    border: 5px solid green;
+    color: limegreen;
+    background-color: white;
+    width: 500px;
+}
+
+#nome {
+    font: 35px;
+    font-style: italic;
+    background-color: white;
+    text-align: center;
+}
+
+#idade,  #cidade {
+    background-color: white;
+    text-align: center;
+}
+
+.formação {
+    width: 600px;
+    font-size: 18px;
+    border: 5px groove darkgray ;
+}
+
+.formação h2 {
+    text-align: center;
+}
