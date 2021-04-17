@@ -1,0 +1,53 @@
+* {
+    
+    width: auto;
+}
+
+h1 {
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+}
+
+.informações {
+
+    margin: 30px 20px;
+    padding: 15px;
+    border: 5px solid green;
+    color: limegreen;
+    font-family: 'Ubuntu Mono', monospace;
+    
+    width: 500px;
+}
+
+#nome {
+    font: 35px;
+    font-style: italic;
+    
+    text-align: center;
+}
+
+#idade,  #cidade {
+   
+    text-align: center;
+}
+
+.formação {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    font-size: 18px;
+    border: 5px groove darkgray ;
+    background-color: lightgray;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.formação h2 {
+    text-align: center;
+}
+
+#footer {
+    margin: 30px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 24px;
+    text-align: center;
+}
