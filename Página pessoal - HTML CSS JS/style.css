@@ -3,9 +3,13 @@
     width: auto;
 }
 
-h1 {
-    font-family: 'Ubuntu Mono', monospace;
+#titulo {
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    box-shadow: 0 0 20px lime;
+    height: auto;
+    vertical-align: middle;
+    width: auto;
 }
 
 .informações {
@@ -45,9 +49,20 @@ h1 {
     text-align: center;
 }
 
+.formação li{
+    list-style: square;
+    padding: 5px;
+}
+
 #footer {
     margin: 30px;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     text-align: center;
+    border: 7px double black;
+}
+
+#footer:hover {
+    border: 7px groove lime;
+    color: purple;
 }
