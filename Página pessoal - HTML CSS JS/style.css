@@ -13,14 +13,27 @@
 }
 
 .informações {
-
+    display: flexbox;
     margin: 30px 20px;
     padding: 15px;
-    border: 5px solid green;
     color: limegreen;
     font-family: 'Ubuntu Mono', monospace;
     
-    width: 500px;
+    width: auto;
+}
+
+#dados {
+    flex-direction: row ;
+    width: 300px;
+}
+
+#picture{
+    flex-direction: row;
+}
+
+.informações #picture #foto{
+    border: 5px solid rgb(70, 70, 241);
+    width: 50%;
 }
 
 #nome {
@@ -60,9 +73,13 @@
     font-size: 24px;
     text-align: center;
     border: 7px double black;
+    position: relative;
+    bottom: 0;
+    width: auto;
 }
 
 #footer:hover {
     border: 7px groove lime;
+    background-color: rgb(149, 235, 149);
     color: purple;
 }
