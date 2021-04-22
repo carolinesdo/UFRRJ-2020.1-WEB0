@@ -1,0 +1,107 @@
+* {
+    
+    width: auto;
+}
+
+#titulo {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 1px solid #FCC302;
+    box-shadow: 0 0 20px #FCC302;
+    height: 60px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    width: auto;
+}
+
+#retorno{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 5px 15px;
+    border: 2px solid #444;
+    border-radius: 6px;
+    background-color: #FCC302;
+    font-size: 18px;
+}
+
+.informacoes {
+    display: flexbox;
+    margin: 0 auto;
+    padding: 15px;
+    color: rgb(102,0,102);
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 25px;
+    width: auto;
+}
+
+#dados {
+    flex-direction: row ;
+    width: 600px;
+    text-align: center;
+}
+
+#picture{
+    flex-direction: row;
+}
+
+.informacoes #picture #foto{
+    border: 5px double #FCC302;
+    border-radius: 10px;
+    width: 50%;
+}
+
+#nome {
+    font: 35px;
+    font-style: italic;
+}
+
+
+.formacao {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    font-size: 18px;
+    border: 5px groove darkgray ;
+    background-color: lightgray;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.formacao h2 {
+    text-align: center;
+}
+
+.formacao li{
+    list-style: square;
+    padding: 5px;
+}
+
+.rodape-0{
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+#rodape {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;    
+    border: 4px groove #444;
+    background-color: #FCC302;
+    color: black;
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+}
+
+#rodape:hover {
+    border: 4px groove rgb(102,0,102);
+    background-color:white;
+    color: purple;
+}
