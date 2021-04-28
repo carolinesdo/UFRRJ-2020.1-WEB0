@@ -1,5 +1,4 @@
-* {
-    
+* { 
     width: auto;
 }
 
@@ -29,29 +28,30 @@
 }
 
 .informacoes {
-    display: flexbox;
-    margin: 0 auto;
+    display: flex;
+    margin: auto;
     padding: 15px;
     color: rgb(102,0,102);
     font-family: 'Ubuntu Mono', monospace;
     font-size: 25px;
-    width: auto;
+    width: 900px;
 }
 
-#dados {
-    flex-direction: row ;
-    width: 600px;
-    text-align: center;
+.picture{
+    
 }
 
-#picture{
-    flex-direction: row;
-}
-
-.informacoes #picture #foto{
+.informacoes .picture #foto{
     border: 5px double #FCC302;
     border-radius: 10px;
-    width: 50%;
+    width: 70%;
+}
+
+.dados {
+    border: 1px solid black;
+    justify-content: center;
+    width: 270px;
+    text-align: center;
 }
 
 #nome {
